@@ -1,0 +1,10 @@
+# Datos: los originales se descargan de Kaggle y el resto se genera con los SQL
+Datos OG/
+datos/
+*.csv
+*.duckdb
+*.duckdb.wal
+
+# Power BI: el repositorio incluye el informe como .pbix (el proyecto PBIP queda en local)
+powerbi/*
+!powerbi/Olist.pbix
