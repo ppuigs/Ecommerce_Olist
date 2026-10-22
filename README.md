@@ -33,7 +33,7 @@ Power BI (Olist.pbix): modelo en estrella + medidas DAX + 4 páginas y una de de
 - 1.275 pedidos con varios vendedores (1,3 %): no se usan en el análisis por vendedor.
 - Motivo de las quejas: los comentarios de 1-2 estrellas se clasifican con palabras clave en portugués (no llegó o incompleto, no es como el anuncio, calidad, atención, producto equivocado, dañado).
 
-**Modelo en Power BI:** `items_entregados` en el centro, relacionada con `pedidos_limpios`, `productos` y `vendedores`. El mapa de hexágonos es una imagen SVG generada por una medida DAX.
+**Modelo en Power BI:** `items_entregados` en el centro, relacionada con `pedidos_limpios`, `productos` y `vendedores`. Los nombres de las categorías se traducen al español en Power Query. El mapa de hexágonos es una imagen SVG generada por una medida DAX.
 
 ## Resultados
 
@@ -42,7 +42,7 @@ Power BI (Olist.pbix): modelo en estrella + medidas DAX + 4 páginas y una de de
 - **Dónde:** en el nordeste (Alagoas 21 %, Maranhão 17 %, Sergipe 15 %) y en Río de Janeiro (12 %). El norte tarda más de 20 días, pero casi nunca llega tarde: allí la fecha prometida ya es larga.
 - **Aunque llegue a tiempo, esperar baja la nota:** 4,41 si tarda una semana o menos y 3,89 si tarda 22 días o más. El 71 % de los pedidos sale de São Paulo, y entregar en otro estado tarda el doble (15 días frente a 8).
 - **Es sobre todo logística, no producto:** en las categorías grandes la nota es de 4,1-4,4 si llega a tiempo y cae a 2,1-2,6 si llega tarde. En las quejas de pedidos a tiempo, solo el 8 % habla de la calidad; lo más frecuente es que el pedido llegue incompleto o no llegue (28 %).
-- **La excepción, office_furniture** (3,76 a tiempo): un vendedor concentra el 70 % de las ventas y puntúa bajo también en otras categorías.
+- **La excepción, muebles de oficina** (`office_furniture`, 3,76 a tiempo): un vendedor concentra el 70 % de las ventas y puntúa bajo también en otras categorías.
 
 ## Recomendaciones
 
